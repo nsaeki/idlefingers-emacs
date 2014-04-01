@@ -24,7 +24,7 @@
 (custom-theme-set-faces
  'idlefingers
  '(default ((t (:foreground "#C2C2C2" :background "#282828"))))
- '(cursor ((t (:foreground "#91FF00"))))
+ '(cursor ((t (:background "#91FF00"))))
  '(region ((t (:background "#5A647E"))))
  '(mode-line ((t (:background "#91FF00" :foreground "#000000"))))
  '(blue ((t (:foreground "blue"))))
