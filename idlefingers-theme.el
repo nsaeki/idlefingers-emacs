@@ -11,7 +11,7 @@
 ;;
 ;; Still needs a lot of work though, feel free to improve!
 ;;
-;; MIT License Copyright (c) 2014 Nobuo Saeki
+;; MIT License Copyright (c) 2014 Nobuo Saeki (@nsaeki)
 ;; Credits due to the excellent Emacs Twilight theme and Textmate idleFingers theme
 ;;
 
@@ -26,22 +26,12 @@
  '(default ((t (:foreground "#C2C2C2" :background "#282828"))))
  '(cursor ((t (:foreground "#91FF00"))))
  '(region ((t (:background "#5A647E"))))
-
- '(modeline ((t (:background "#91FF00" :foreground "#00000"))))
- '(mode-line ((t (:background "#91FF00" :foreground "#00000"))))
- '(modeline-mousable ((t (:background "#91FF00" :foreground "#00000"))))
- '(modeline-mousable-minor-mode ((t (:background "#91FF00" :foreground "#00000"))))
-
+ '(mode-line ((t (:background "#91FF00" :foreground "#000000"))))
  '(blue ((t (:foreground "blue"))))
  '(border-glyph ((t (nil))))
  '(buffers-tab ((t (:background "#282828" :foreground "#C2C2C2"))))
-
  '(highlight ((t (:background "#353637"))))
  '(hl-line ((t (:background "#293739"))))
-
- ;'(show-paren-match-face ((t (:foreground "#1B1D1E" :background "#FD971F"))))
- ;'(paren-face ((t (:foreground "#A6E22A" :background nil))))
-
 
  '(font-lock-builtin-face ((t (:foreground "#C2C2C2"))))
  '(font-lock-comment-face ((t (:italic t :foreground "#BC9458"))))
