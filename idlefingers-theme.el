@@ -15,7 +15,7 @@
 ;; Credits due to the excellent Emacs Twilight theme and Textmate idleFingers theme
 ;;
 
-(unless (>= 24 emacs-major-version)
+(unless (<= 24 emacs-major-version)
   (error "idlefingers-theme requires Emacs 24 or later."))
 
 (deftheme idlefingers
